@@ -35,11 +35,12 @@
 
         // DOM ready executing scripts after the webview has loaded
         webview.addEventListener('dom-ready', function() {
+          webview.openDevTools()
             //Any global CSS changes (EG: Hide Scroll Bars)
             this.insertCSS('::-webkit-scrollbar { display: none!important; }');
             if (process.platform == 'darwin') {
                 //Any CSS adjustments for Mac
-                this.insertCSS('.navbar-left{ margin-left: 24px;!important; }');
+                this.insertCSS('.navbar-left{ margin-left: 64px;!important; }');
             }
         });
 
