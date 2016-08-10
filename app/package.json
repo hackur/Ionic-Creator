@@ -1,0 +1,24 @@
+{
+   "name":"Ionic-Creator",
+   "productName":"Ionic Creator",
+   "version":"1.0.1",
+   "description":"Electron web app for the Ionic creator.",
+   "private":true,
+   "main":"main.js",
+   "author":"[MEADOW_DEV] (http://twitter.com/Meadowcottage13)",
+   "license":"GNU General Public License",
+   "homepage":"https://github.com/meadowcottage/Ionic-Creator/",
+   "keywords":[
+      "Electron",
+      "Ionic-Creator",
+      "Protostyping",
+      "Creator"
+   ],
+   "bugs":{
+      "url":"https://github.com/meadowcottage/Ionic-Creator/issues/"
+   },
+   "repository":{
+      "type":"git",
+      "url":"git+https://github.com/meadowcottage/Ionic-Creator.git"
+   }
+}

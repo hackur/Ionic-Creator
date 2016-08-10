@@ -1,0 +1,12 @@
+platform:
+  - x64
+
+install:
+  - ps: Install-Product node 6 x64
+  - npm install
+  - npm prune
+
+build: off
+
+test_script:
+  - npm run test
