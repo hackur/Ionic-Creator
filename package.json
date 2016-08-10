@@ -11,7 +11,7 @@
   "build": {
     "appId": "uk.meadowcottage.ionic-creator",
     "app-category-type": "public.app-category.social",
-    "productName": "Ionic Creator",
+    "productName": "Ionic-Creator",
     "dmg": {
       "contents": [
         {
