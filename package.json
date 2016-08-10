@@ -13,7 +13,6 @@
     "app-category-type": "public.app-category.social",
     "productName": "Ionic Creator",
     "dmg": {
-      "background": "build/background.png",
       "contents": [
         {
           "x": 410,
