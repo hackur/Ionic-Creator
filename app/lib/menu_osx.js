@@ -72,6 +72,10 @@ var template = [{
             click: function(item, focusedWindow) {
                 if (focusedWindow) focusedWindow.webContents.reload();
             }
+        }, {
+          label: 'Toggle Fullscreen',
+          accelerator: 'Cmd+F',
+          role: 'togglefullscreen'
         }
     ]
 }, {
