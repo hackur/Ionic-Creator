@@ -32,6 +32,8 @@ app.on('ready', function createWindow() {
   movable: true,
   width: 1280,
   height: 720,
+  minWidth: 850,
+  minHeight: 530,
   fullscreenable: true,
   resizable: true,
   autoHideMenuBar: true
