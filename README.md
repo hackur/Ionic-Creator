@@ -17,9 +17,13 @@
 
 ## Screenshots
 
-<img src="https://raw.githubusercontent.com/Meadowcottage/Ionic-Creator/master/build/Screenshot-1.png"/>
+<img src="https://raw.githubusercontent.com/Meadowcottage/Ionic-Creator/master/build/Screenshot-light-1.png"/>
 
-<img src="https://raw.githubusercontent.com/Meadowcottage/Ionic-Creator/master/build/Screenshot-2.png"/>
+<img src="https://raw.githubusercontent.com/Meadowcottage/Ionic-Creator/master/build/Screenshot-light-2.png"/>
+
+<img src="https://raw.githubusercontent.com/Meadowcottage/Ionic-Creator/master/build/Screenshot-dark-1.png"/>
+
+<img src="https://raw.githubusercontent.com/Meadowcottage/Ionic-Creator/master/build/Screenshot-dark-2.png"/>
 
 ## Install
 

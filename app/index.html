@@ -35,8 +35,13 @@
 
         // DOM ready executing scripts after the webview has loaded
         webview.addEventListener('dom-ready', function() {
-            //Any global CSS changes (EG: Hide Scroll Bars)
+            //Hide Scroll Bars
             this.insertCSS('::-webkit-scrollbar { display: none!important; }');
+
+            //Dark Theme CSS
+            //this.insertCSS('#dashboard, #login, #signup {background-color: #263238!important;}.navbar, #dashboard-footer, #dashboard .card, #login input {background-color: #455A64!important;border: none!important;}#dashboard-footer, #dashboard-footer .link, #dashboard-footer > div > span.dashboard-projects-left.available-projects, #dashboard-projects > div.projects.cards.clearfix > div > div.project-info > h3 > span:nth-child(1), #login > div > form > div.pull-right, #login > div > div.message > h3, #create-first-team > h2, #dashboard-help > div > h1 > a, #dashboard-help > ui-view > div > div:nth-child(1) > h3 , #dashboard-help > ui-view > div > a > h3, #dashboard-help > ui-view > div > div:nth-child(3) > h3, #login > div > form > p:nth-child(1), .form-control, #pricing-page > div:nth-child(1) > center:nth-child(1) > h1, #pricing-page > div:nth-child(1) > center:nth-child(1) > h1, #learnmore > div > h3, #learnmore > div > ul > li.ssl > strong, #learnmore > div > ul > li.sharing > strong, #learnmore > div > ul > li.ionic > strong, #learnmore > div > ul > li.templates > strong, #learnmore > div > ul > li.exporting > strong, #learnmore > div > ul > li.preview > strong, #dashboard-projects > div.dashboard-top.clearfix > h1 {color: #fff!important;}#dashboard-projects .project .project-options {border-top: 2px solid #37474F!important;}');
+
+            //Move creator navbar icon to the right.
             if (process.platform == 'darwin') {
                 //Any CSS adjustments for Mac
                 this.insertCSS('.navbar-left{ margin-left: 64px;!important; }');
